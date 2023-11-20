@@ -1,4 +1,5 @@
 const article = document.querySelector("article");
+const messagee = document.body
 
 // `document.querySelector` may return null if the selector doesn't match anything.
 if (article) {
@@ -20,3 +21,10 @@ if (article) {
 
   (date ?? heading).insertAdjacentElement("afterend", badge);
 }
+
+
+messagee.addEventListener('onclick', function() {
+    // Function to be executed when the mouseover event occurs
+    // console.log('Mouse over the element!');
+    // window.location.href = "extend.html"
+  });
